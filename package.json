@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "description": "a03",
   "main": "./lib/roll.js",
+  "type":"module",
   "scripts": {
-    "test": "npm roll.js"
+    "test": "node bin/cli.js --sides=6 --dice=2 --rolls=3"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/comp426-2022-fall/a03-Mahithakr.git"
   },
-  "author": "Mahithakr",
+  "author": "@Mahithakr",
   "bin": {
     "roll-dice": "./bin/cli.js"
   },

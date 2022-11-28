@@ -7,7 +7,7 @@ const args = minimist(process.argv.slice(2));
 
 const sides = args.sides || 6;
 const dice = args.dice || 2;
-const roll = args.rolls || 1;
+const rolls = args.rolls || 1;
 
 console.log(roll(sides,dice,rolls));
 process.exit(0);
